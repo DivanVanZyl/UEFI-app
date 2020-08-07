@@ -23,7 +23,7 @@ efi_main (EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)
 -> Build efimain.c paying special attention to the paths of the efi libraries you downloaded
 -> Also makes efi disk image (dd command)
 #!/bin/bash
-# My first script
+# UEFI compile, build and run script
 gcc efimain.c                             \
       -c                                 \
       -fno-stack-protector               \
